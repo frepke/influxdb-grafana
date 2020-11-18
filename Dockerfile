@@ -42,6 +42,6 @@ COPY influxdb/influxdb.conf /etc/influxdb/influxdb.conf
 # Configure Grafana
 COPY grafana/grafana.ini /etc/grafana/grafana.ini
 
-COPY run.sh /run.sh
+COPY start.sh /start.sh
 RUN ["chmod", "+x", "/start.sh"]
 CMD ["/start.sh"]
