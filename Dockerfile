@@ -22,7 +22,6 @@ RUN apt-get -y update \
     wget \
     supervisor \
     && mkdir -p /var/log/supervisor \
-    && rm -rf .profile \
     # Install InfluxDB
     && wget --no-verbose https://dl.influxdata.com/influxdb/releases/influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     && dpkg -i influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
