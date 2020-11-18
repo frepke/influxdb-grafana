@@ -28,7 +28,7 @@ RUN apt-get -y update \
     && dpkg -i influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     && rm influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     # Install Grafana
-    && wget https://dl.grafana.com/oss/release/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
+    && wget --no-verbose https://dl.grafana.com/oss/release/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     # Cleanup
