@@ -12,16 +12,6 @@ ENV INFLUXDB_VERSION=1.8.3
 # https://grafana.com/grafana/download
 ENV GRAFANA_VERSION=7.3.3
 
-# Grafana.ini mods
-# grafana database
-    # type=sqlite3
-# enable anonymous access
-    # enabled = true
-# specify organization name that should be used for unauthenticated users
-    # org_name = Freeview
-# specify role for unauthenticated users
-    # org_role = Viewer
-
 WORKDIR /root
 
 RUN apt-get -y update \
@@ -50,6 +40,15 @@ COPY supervisord/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY influxdb/influxdb.conf /etc/influxdb/influxdb.conf
 
 # Configure Grafana
+# grafana database
+    # type=sqlite3
+# enable anonymous access
+    # enabled = true
+# specify organization name that should be used for unauthenticated users
+    # org_name = Freeview
+# specify role for unauthenticated users
+    # org_role = Viewer
+    
 COPY grafana/grafana.ini /etc/grafana/grafana.ini
 
 COPY start.sh /start.sh
