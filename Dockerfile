@@ -10,8 +10,15 @@ ENV LANG C.UTF-8
 ENV INFLUXDB_VERSION=1.8.3
 ENV GRAFANA_VERSION=7.3.3
 
-# Grafana database type
-ENV GF_DATABASE_TYPE=sqlite3
+# Grafana.ini mods
+# grafana database
+    # type=sqlite3
+# enable anonymous access
+    # enabled = true
+# specify organization name that should be used for unauthenticated users
+    # org_name = Freeview
+# specify role for unauthenticated users
+    # org_role = Viewer
 
 WORKDIR /root
 
