@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# We need to ensure this directory is writeable on start of the container
+# Make directory writeable on container start
 chmod 0777 /var/lib/grafana
 
 exec /usr/bin/supervisord
