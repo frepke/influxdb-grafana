@@ -21,6 +21,7 @@ RUN apt-get -y update \
     libfontconfig1 \
     wget \
     supervisor \
+    nano \
     && mkdir -p /var/log/supervisor \
     # Install InfluxDB
     && wget --no-verbose https://dl.influxdata.com/influxdb/releases/influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
