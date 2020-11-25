@@ -6,11 +6,14 @@ ENV ARCH amd64
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG C.UTF-8
 
-# Default versions
+## Versions
 # https://portal.influxdata.com/downloads/
 ENV INFLUXDB_VERSION=1.8.3
 # https://grafana.com/grafana/download
 ENV GRAFANA_VERSION=7.3.4
+
+# Grafana database type
+ENV GF_DATABASE_TYPE=sqlite3
 
 WORKDIR /root
 
