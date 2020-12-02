@@ -1,4 +1,6 @@
-# Influxdb Grafana
+# Grafana InfluxDB
+
+[![](https://www.influxdata.com/wp-content/uploads/grafana-dashboard-influxdb-1.png)]
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/frepke/influxdb-grafana.svg)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
 [![license](https://img.shields.io/github/license/frepke/influxdb-grafana.svg)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
