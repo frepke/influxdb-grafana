@@ -12,7 +12,7 @@
 
 ## Usage
 
-Here are some example snippets to help you get started creating a container.
+Here are some example snippets to help you get started creating and running a container.
 
 **docker**
 
