@@ -53,6 +53,7 @@ services:
 ```
 
 **Grafana**
+
 Open <http://localhost:3000>
 ```markdown
 username: admin
