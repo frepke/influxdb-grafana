@@ -5,7 +5,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/frepke/influxdb-grafana.svg?style=plastic)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
 [![license](https://img.shields.io/github/license/frepke/influxdb-grafana.svg?style=plastic)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
 
-![Grafana](https://img.shields.io/badge/Grafana-7.3.5-orange?style=plastic)
+![Grafana](https://img.shields.io/badge/Grafana-7.3.6-orange?style=plastic)
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.3-orange?style=plastic)
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
