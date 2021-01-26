@@ -23,7 +23,6 @@ docker run -d \
   -e PGID=1000 \
   -p 8086:8086 \ #influxdb HTTP API port
   -p 3000:3000 \ #grafana webinterface
-  -p 8083:8083 \ #chronograf webinterface
   -v path to data:/var/lib/influxdb \ #makes InfluxDB data and db's persistent
   -v path to data:/var/lib/grafana \ #makes Grafana data and db's persistent
   --restart unless-stopped \
@@ -50,7 +49,6 @@ services:
     ports:
       - 8086:8086 \ #influxdb HTTP API port
       - 3000:3000 \ #grafana webinterface
-      - 8083:8083 \ #chronograf webinterface
     restart: unless-stopped
 ```
 
