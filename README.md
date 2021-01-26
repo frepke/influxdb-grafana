@@ -1,12 +1,12 @@
-# Grafana InfluxDB
+# InfluxDB Grafana
 
-![](https://www.influxdata.com/wp-content/uploads/grafana-dashboard-influxdb-1.png)
+![](https://pi2s.files.wordpress.com/2017/01/influxgrafanalogo.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/frepke/influxdb-grafana.svg?style=plastic)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
 [![license](https://img.shields.io/github/license/frepke/influxdb-grafana.svg?style=plastic)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
 
-![Grafana](https://img.shields.io/badge/Grafana-7.3.7-orange?style=plastic)
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.3-orange?style=plastic)
+![Grafana](https://img.shields.io/badge/Grafana-7.3.7-orange?style=plastic)
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
 
