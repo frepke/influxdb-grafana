@@ -7,7 +7,6 @@
 
 ![Grafana](https://img.shields.io/badge/Grafana-7.3.7-orange?style=plastic)
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.3-orange?style=plastic)
-![Chronograf](https://img.shields.io/badge/Chronograf-1.8.9.1-orange?style=plastic)
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
 
