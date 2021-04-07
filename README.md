@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/github/license/frepke/influxdb-grafana.svg?style=plastic)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
 
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.4-orange?style=plastic)
-![Grafana](https://img.shields.io/badge/Grafana-7.5.2-orange?style=plastic)
+![Grafana](https://img.shields.io/badge/Grafana-7.5.3-orange?style=plastic)
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
 
