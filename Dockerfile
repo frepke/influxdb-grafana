@@ -39,6 +39,8 @@ RUN apt-get -y update \
 
 COPY supervisord/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+COPY collectd/types.db /usr/share/collectd/types.db
+
 # Configure InfluxDB
 COPY influxdb/influxdb.conf /etc/influxdb/influxdb.conf
 
