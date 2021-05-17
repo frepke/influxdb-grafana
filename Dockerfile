@@ -10,7 +10,7 @@ ENV LANG C.UTF-8
 # https://portal.influxdata.com/downloads/
 ENV INFLUXDB_VERSION=1.8.4
 # https://grafana.com/grafana/download
-ENV GRAFANA_VERSION=7.5.6
+ENV GRAFANA_VERSION=8.0.0~beta1
 # https://portal.influxdata.com/downloads/
 ENV CHRONOGRAF_VERSION=1.8.10
 
