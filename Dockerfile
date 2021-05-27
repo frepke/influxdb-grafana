@@ -2,7 +2,6 @@ FROM debian:buster-slim
 LABEL maintainer="Frepke"
 
 ENV ARCH amd64
-
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG C.UTF-8
 
