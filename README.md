@@ -26,7 +26,7 @@ docker run -d \
   -v path to data:/var/lib/influxdb \ #makes InfluxDB data and db's persistent
   -v path to data:/var/lib/grafana \ #makes Grafana data and db's persistent
   --restart unless-stopped \
-  frepke/influxdb-grafana
+  ghcr.io/frepke/influxdb-grafana
 ```
 
 **docker-compose**
@@ -38,7 +38,7 @@ Compatible with docker-compose v3 schemas.
 version: "3"
 services:
   influx-graf:
-    image: frepke/influxdb-grafana
+    image: ghcr.io/frepke/influxdb-grafana
     container_name: influx-graf:
     environment:
       - PUID=1000
