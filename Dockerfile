@@ -1,5 +1,5 @@
 FROM debian:buster-slim
-LABEL maintainer="Frepke"
+LABEL maintainer="frepke"
 
 ENV ARCH amd64
 ENV DEBIAN_FRONTEND noninteractive
@@ -10,8 +10,6 @@ ENV LANG C.UTF-8
 ENV INFLUXDB_VERSION=1.8.4
 # https://grafana.com/grafana/download
 ENV GRAFANA_VERSION=8.0.0
-# https://portal.influxdata.com/downloads/
-ENV CHRONOGRAF_VERSION=1.8.10
 
 # Grafana database type
 ENV GF_DATABASE_TYPE=sqlite3
@@ -34,10 +32,6 @@ RUN apt-get -y update \
     && wget --no-verbose https://dl.grafana.com/oss/release/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
-    # Install Chronograf
-    && wget --no-verbose https://dl.influxdata.com/chronograf/releases/chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
-    && dpkg -i chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
-    && rm chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
     # Cleanup
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
