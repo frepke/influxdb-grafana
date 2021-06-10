@@ -33,5 +33,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/frepke/influxdb-grafana:latest
-            ghcr.io/frepke/influxdb-grafana:1.0.0
+            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:1.0.0
