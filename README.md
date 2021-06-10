@@ -5,6 +5,7 @@
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.4-orange?style=plastic)
 ![Grafana](https://img.shields.io/badge/Grafana-8.0.0-orange?style=plastic)
 
+![code-language](https://img.shields.io/github/languages/top/frepke/influxdb-grafana?style=plastic)
 ![code-size](https://img.shields.io/github/languages/code-size/frepke/influxdb-grafana?style=plastic)
 ![last-commit](https://img.shields.io/github/last-commit/frepke/influxdb-grafana/master?style=plastic)
 
