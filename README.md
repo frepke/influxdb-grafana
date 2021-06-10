@@ -3,7 +3,7 @@
 ![](https://pi2s.files.wordpress.com/2017/01/influxgrafanalogo.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/frepke/influxdb-grafana.svg?style=plastic)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
-[![license](https://img.shields.io/github/license/frepke/influxdb-grafana.svg?style=plastic)](https://hub.docker.com/repository/docker/frepke/influxdb-grafana)
+[![license](https://img.shields.io/github/license/frepke/influxdb-grafana.svg?style=plastic)](https://github.com/Frepke/influxdb-grafana/blob/master/LICENSE)
 
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.4-orange?style=plastic)
 ![Grafana](https://img.shields.io/badge/Grafana-8.0.0-orange?style=plastic)
