@@ -7,7 +7,7 @@ ENV LANG C.UTF-8
 
 ## Versions
 # https://portal.influxdata.com/downloads/
-ENV INFLUXDB_VERSION=1.8.4
+ENV INFLUXDB_VERSION=1.8.6
 # https://grafana.com/grafana/download
 ENV GRAFANA_VERSION=8.0.1
 
