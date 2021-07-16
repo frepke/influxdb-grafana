@@ -1,0 +1,16 @@
+---
+version: "3"
+services:
+  influx-graf:
+    image: ghcr.io/frepke/influxdb-grafana
+    container_name: influx-graf:
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - path to data:/var/lib/influxdb \ #makes InfluxDB data and db's persistent
+      - path to data:/var/lib/grafana \ #makes Grafana data and db's persistent
+    ports:
+      - 8086:8086 \ #influxdb HTTP API port
+      - 3000:3000 \ #grafana webinterface
+    restart: unless-stopped
