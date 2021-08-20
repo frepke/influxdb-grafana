@@ -3,7 +3,7 @@
 ![](https://pi2s.files.wordpress.com/2017/01/influxgrafanalogo.png)
 
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.9-orange?style=plastic)
-![Grafana](https://img.shields.io/badge/Grafana-8.1.2-orange?style=plastic)
+![Grafana](https://img.shields.io/badge/Grafana-8.0.6-orange?style=plastic)
 
 ![code-language](https://img.shields.io/github/languages/top/frepke/influxdb-grafana?style=plastic)
 ![code-size](https://img.shields.io/github/languages/code-size/frepke/influxdb-grafana?style=plastic)
