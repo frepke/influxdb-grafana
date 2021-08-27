@@ -9,7 +9,7 @@ ENV LANG C.UTF-8
 # https://portal.influxdata.com/downloads/
 ENV INFLUXDB_VERSION=1.8.9
 # https://grafana.com/grafana/download
-ENV GRAFANA_VERSION=8.0.6
+ENV GRAFANA_VERSION=8.1.2
 
 # Grafana database type
 ENV GF_DATABASE_TYPE=sqlite3
@@ -29,7 +29,7 @@ RUN apt-get -y update \
     && dpkg -i influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     && rm influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     # Install Grafana
-    && wget --no-verbose https://dl.grafana.com/oss/release/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
+    && wget --no-verbose https://dl.grafana.com/enterprise/release/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     # Cleanup
