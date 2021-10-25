@@ -21,6 +21,7 @@ RUN apt-get -y update \
     adduser \
     libfontconfig1 \
     wget \
+    curl \
     supervisor \
     nano \
     && mkdir -p /var/log/supervisor \
