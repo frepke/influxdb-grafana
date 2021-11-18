@@ -9,7 +9,7 @@ ENV LANG C.UTF-8
 # https://portal.influxdata.com/downloads/
 ENV INFLUXDB_VERSION=1.8.10
 # https://grafana.com/grafana/download
-ENV GRAFANA_VERSION=8.2.4
+ENV GRAFANA_VERSION=8.2.5
 
 # Grafana database type
 ENV GF_DATABASE_TYPE=sqlite3
