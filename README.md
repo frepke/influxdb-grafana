@@ -8,6 +8,7 @@
 ![code-language](https://img.shields.io/github/languages/top/frepke/influxdb-grafana?style=plastic)
 ![code-size](https://img.shields.io/github/languages/code-size/frepke/influxdb-grafana?style=plastic)
 ![last-commit](https://img.shields.io/github/last-commit/frepke/influxdb-grafana/master?style=plastic)
+[![ci](https://github.com/frepke/influxdb-grafana/actions/workflows/docker-image.yml/badge.svg)](https://github.com/frepke/influxdb-grafana/actions/workflows/docker-image.yml)
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
 
