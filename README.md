@@ -2,17 +2,17 @@
 
 ![](https://pi2s.files.wordpress.com/2017/01/influxgrafanalogo.png)
 
-![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.10-orange?style=plastic)
-![Grafana](https://img.shields.io/badge/Grafana-9.1.4_Enterprise-orange?style=plastic)
+![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.10-orange)
+![Grafana](https://img.shields.io/badge/Grafana-9.1.4_Enterprise-orange)
 
-![code-language](https://img.shields.io/github/languages/top/frepke/influxdb-grafana?style=plastic)
-![code-size](https://img.shields.io/github/languages/code-size/frepke/influxdb-grafana?style=plastic)
-![last-commit](https://img.shields.io/github/last-commit/frepke/influxdb-grafana/master?style=plastic)
+![code-language](https://img.shields.io/github/languages/top/frepke/influxdb-grafana)
+![code-size](https://img.shields.io/github/languages/code-size/frepke/influxdb-grafana)
+![last-commit](https://img.shields.io/github/last-commit/frepke/influxdb-grafana/master)
 [![ci](https://github.com/frepke/influxdb-grafana/actions/workflows/docker-image.yml/badge.svg)](https://github.com/frepke/influxdb-grafana/actions/workflows/docker-image.yml)
 
-![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
+![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred)
 
-![license](https://img.shields.io/github/license/Frepke/influxdb-grafana?style=plastic)
+![license](https://img.shields.io/github/license/Frepke/influxdb-grafana)
 
 ## Usage
 
