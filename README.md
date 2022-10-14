@@ -4,6 +4,7 @@
 
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.10-orange)
 ![Grafana](https://img.shields.io/badge/Grafana-9.1.7_Enterprise-orange)
+![Chronograf](https://img.shields.io/badge/Chronograf-1.10.0-orange)
 
 ![code-language](https://img.shields.io/github/languages/top/frepke/influxdb-grafana)
 ![code-size](https://img.shields.io/github/languages/code-size/frepke/influxdb-grafana)
@@ -27,6 +28,7 @@ docker run -d \
   -e PGID=1000 \
   -p 8086:8086 \ #influxdb HTTP API port
   -p 3000:3000 \ #grafana webinterface
+  -p 8083:8083 \ #chronograf webinterface
   -v path to data:/var/lib/influxdb \ #makes InfluxDB data and db's persistent
   -v path to data:/var/lib/grafana \ #makes Grafana data and db's persistent
   --restart unless-stopped \
