@@ -41,7 +41,7 @@ RUN apt-get -y update \
     #
     # Pre-release
     #
-    && wget --no-verbose wget https://dl.grafana.com/oss/main/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
+    && wget --no-verbose https://dl.grafana.com/oss/main/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     # Install Chronograf
