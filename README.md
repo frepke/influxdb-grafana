@@ -3,7 +3,7 @@
 ![](https://pi2s.files.wordpress.com/2017/01/influxgrafanalogo.png)
 
 ![Influxdb](https://img.shields.io/badge/InfluxDB-1.8.10-orange)
-![Grafana](https://img.shields.io/badge/Grafana-9.5.0~108034pre-orange)
+![Grafana](https://img.shields.io/badge/Grafana-9.5.0-108034pre-orange)
 ![Chronograf](https://img.shields.io/badge/Chronograf-1.10.0-orange)
 
 ![code-language](https://img.shields.io/github/languages/top/frepke/influxdb-grafana)
