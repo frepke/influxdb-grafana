@@ -32,11 +32,15 @@ RUN apt-get -y update \
     && dpkg -i influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     && rm influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     # Install Grafana
+    #
     # Enterprise
+    #
  #   && wget --no-verbose https://dl.grafana.com/enterprise/release/grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
  #   && dpkg -i grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
  #   && rm grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
+    #
     # Pre-release
+    #
     && wget --no-verbose wget https://dl.grafana.com/oss/main/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
