@@ -9,7 +9,7 @@ ENV LANG C.UTF-8
 # https://portal.influxdata.com/downloads/
 ENV INFLUXDB_VERSION=1.8.10
 # https://grafana.com/grafana/download
-ENV GRAFANA_VERSION=9.5.0~108034pre
+ENV GRAFANA_VERSION=9.4.7
 # https://portal.influxdata.com/downloads/
 ENV CHRONOGRAF_VERSION=1.10.0
 
@@ -35,15 +35,15 @@ RUN apt-get -y update \
     #
     # Enterprise
     #
- #   && wget --no-verbose https://dl.grafana.com/enterprise/release/grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
- #   && dpkg -i grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
- #   && rm grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
+    && wget --no-verbose https://dl.grafana.com/enterprise/release/grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
+    && dpkg -i grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
+    && rm grafana-enterprise_${GRAFANA_VERSION}_${ARCH}.deb \
     #
     # Pre-release
     #
-    && wget --no-verbose https://dl.grafana.com/oss/main/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
-    && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
-    && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
+#    && wget --no-verbose https://dl.grafana.com/oss/main/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
+#    && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
+#    && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     # Install Chronograf
     && wget --no-verbose https://dl.influxdata.com/chronograf/releases/chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
     && dpkg -i chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
