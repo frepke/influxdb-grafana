@@ -11,7 +11,7 @@ ENV INFLUXDB_VERSION=1.8.10
 # https://grafana.com/grafana/download
 ENV GRAFANA_VERSION=10.1.1
 # https://portal.influxdata.com/downloads/
-ENV CHRONOGRAF_VERSION=1.10.0
+ENV CHRONOGRAF_VERSION=1.10.1
 
 # Grafana database type
 ENV GF_DATABASE_TYPE=sqlite3
