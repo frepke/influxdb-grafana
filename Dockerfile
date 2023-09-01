@@ -21,7 +21,7 @@ WORKDIR /root
 RUN apt-get -y update \
     && apt-get install -y \
     adduser \
-#    libfontconfig1 \
+    libfontconfig1 \
     wget \
     curl \
     supervisor \
@@ -50,7 +50,7 @@ RUN apt-get -y update \
     && rm chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
     # Cleanup
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+#    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 COPY supervisord/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
