@@ -21,7 +21,7 @@ WORKDIR /root
 RUN apt-get -y update \
     && apt-get install -y \
     adduser \
-    libfontconfig1 \
+#    libfontconfig1 \
     wget \
     curl \
     supervisor \
@@ -43,7 +43,7 @@ RUN apt-get -y update \
     #
 #    && wget --no-verbose https://dl.grafana.com/oss/main/grafana_${GRAFANA_VERSION}_${ARCH}.deb \
 #    && dpkg -i grafana_${GRAFANA_VERSION}_${ARCH}.deb \
-#o    && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
+#    && rm grafana_${GRAFANA_VERSION}_${ARCH}.deb \
     # Install Chronograf
     && wget --no-verbose https://dl.influxdata.com/chronograf/releases/chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
     && dpkg -i chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
