@@ -9,7 +9,7 @@ ENV LANG C.UTF-8
 # https://portal.influxdata.com/downloads/
 ENV INFLUXDB_VERSION=1.8.10
 # https://grafana.com/grafana/download
-ENV GRAFANA_VERSION=10.1.0
+ENV GRAFANA_VERSION=10.1.1
 # https://portal.influxdata.com/downloads/
 ENV CHRONOGRAF_VERSION=1.10.1
 
@@ -22,6 +22,7 @@ RUN apt-get -y update \
     && apt-get install -y \
     adduser \
     libfontconfig1 \
+    musl \
     wget \
     curl \
     supervisor \
